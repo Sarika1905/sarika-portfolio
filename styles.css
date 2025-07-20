@@ -305,11 +305,13 @@ section {
     overflow: hidden;
     box-shadow: 0 10px 30px var(--shadow);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px var(--shadow);
+    cursor: pointer;
 }
 
 .project-image {
