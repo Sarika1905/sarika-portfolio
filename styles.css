@@ -764,7 +764,7 @@ section {
     }
 
     .timeline-item::before {
-        left: -1rem;
+        left: -0.5rem;
     }
 }
 
@@ -825,4 +825,8 @@ section {
 .animate-on-scroll.animated {
     opacity: 1;
     transform: translateY(0);
+}
+
+.bold-text {
+    color: var(--primary-color)
 }
