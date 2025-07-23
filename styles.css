@@ -201,11 +201,11 @@ p {
 
 .profile-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     height: 400px;
     object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 20px 40px var(--shadow);
+    border-radius: 0%;
+    /* box-shadow: 0 20px 40px var(--shadow); */
     margin: 0 auto;
     display: block;
 }
@@ -256,6 +256,11 @@ section {
 }
 
 @media (max-width: 768px) {
+.profile-image {
+        max-width: 250px;
+        height: 300px;
+    }
+
     .about-section {
         margin-bottom: 0px;
     }
