@@ -255,6 +255,12 @@ section {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+    .about-section {
+        margin-bottom: 0px;
+    }
+}
+
 .about-section h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;
@@ -495,6 +501,35 @@ section {
 /* More About Me Section */
 .more-about {
     background: var(--background-light);
+}
+
+.about-me-parent{
+     display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+}
+
+.about-me-child{
+      flex: 1;
+      padding: 20px;
+      color: white;
+}
+@media (max-width: 768px) {
+    .about-me-parent {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Optional: adds space between the children */
+    }
+    .about-me-child1,
+    .about-me-child2 {
+        flex: 1; /* Ensures both children take equal width */
+        padding: 10px;
+    }
+    .about-me-child2-image {
+       width: 250px;
+       height: 250px;
+    }
 }
 
 .more-content {
