@@ -234,22 +234,22 @@ section {
 }
 
 /* About Section */
-.about {
+/* .about {
     background: var(--background-light);
-}
+} */
 
-.about-content {
+/* .about-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3rem;
     align-items: start;
-}
+} */
 
-.about-intro {
+/* .about-intro {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     color: var(--text-dark);
-}
+} */
 
 .about-section {
     margin-bottom: 2rem;
@@ -299,6 +299,11 @@ section {
 }
 
 /* Projects Section */
+
+.projects {
+    background: var(--background-light);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
