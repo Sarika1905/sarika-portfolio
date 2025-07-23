@@ -206,7 +206,7 @@ p {
     object-fit: cover;
     border-radius: 50%;
     /* box-shadow: 0 20px 40px var(--shadow); */
-    box-shadow: 0 20px 40px rgba(33, 158, 188, 0.3); /* Changed to blue shadow */
+
     margin: 0 auto;
     display: block;
 }
