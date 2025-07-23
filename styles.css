@@ -202,7 +202,7 @@ p {
 .profile-image {
     width: 100%;
     max-width: 400px;
-    height: 450px;
+    height: 400px;
     object-fit: cover;
     /* border-radius: 50%; */
     /* box-shadow: 0 20px 40px var(--shadow); */
@@ -692,6 +692,15 @@ section {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+
+    .profile-image {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
     .hamburger {
         display: flex;
     }
