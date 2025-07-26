@@ -509,6 +509,7 @@ section {
 }
 
 /* More About Me Section */
+
 .more-about {
     background: var(--background-light);
 }
@@ -525,6 +526,20 @@ section {
       padding: 20px;
       color: white;
 }
+.about-me-child2-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+   
+}
+
+.about-me-child2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .about-me-parent {
         display: flex;
@@ -916,7 +931,7 @@ section {
 }
 
 .cert-content {
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 1rem 0.5rem 1rem;
 }
 
 .cert-content h3 {
@@ -945,6 +960,7 @@ section {
 @media (max-width: 400px) {
     .cert-card {
         min-height: 220px;
+        /* min-width: 120px; */
         padding: 0.5rem;
         flex-direction: column;
         align-items: center;
@@ -953,7 +969,7 @@ section {
     .cert-image img {
         max-width: 220px;
         height: auto;
-        margin: 0.5rem auto 0.5rem auto;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
     .cert-content {
         padding: 0.5rem;
