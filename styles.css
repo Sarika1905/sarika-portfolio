@@ -975,3 +975,9 @@ section {
         padding: 0.5rem;
     }
 }
+
+#rolesandresponsibilities li::marker {
+  content: "➜  ";
+  color: #219EBC;
+  font-weight: bold;
+}
